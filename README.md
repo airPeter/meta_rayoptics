@@ -5,7 +5,7 @@
 # example: ideal flat lens with oblique incidence.
 ![metalens_visualize_optical_path.png](metalens_visualize_optical_path.png)
 
-'''
+```
 import sys
 #module path: the absolute path of the MetaRay directory.
 module_path = 'C:/Users/94735/OneDrive - UW-Madison/My Projects/meta_rayoptics/'
@@ -29,4 +29,4 @@ ray_in = Ray(y, theta)
 ray_out = optical_path.run(ray_in)
 
 optical_path.vis_path(y_lim = [-radius * 2, radius * 2])
-'''
+```
