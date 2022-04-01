@@ -1,8 +1,8 @@
-# ray tracing for 2D ideal metasurface
-## support3 optical elements: freespace, pupil and ideal meta-lens.
-## will support arbitrary phase modification in future.
-## no installation needed. copy the MetaRay directory to your code dir or add the absolute path of MetaRay to your sys.path.
-# example: ideal flat lens with oblique incidence.
+# Ray tracing for 2D ideal metasurface
+ Support3 optical elements: freespace, pupil and ideal meta-lens.\
+ Will support arbitrary phase modification in future.\
+ No installation needed. copy the MetaRay directory to your code dir or add the absolute path of MetaRay to your sys.path.
+# Example: ideal flat lens with oblique incidence.
 ![metalens_visualize_optical_path.png](metalens_visualize_optical_path.png)
 
 ```
